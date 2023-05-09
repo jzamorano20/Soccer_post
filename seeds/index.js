@@ -1,9 +1,10 @@
+const sequelize = require("../config/connection");
 const seedUsers = require("./userData");
 const seedPosts = require("./postData");
 const seedComments = require("./commentData");
 
 // Importing sequelize connection
-const sequelize = require("../config/connection");
+
 
 // Function to seed all data by calling the three seed functions in sequence
 const seedAll = async () => {// tutor taught

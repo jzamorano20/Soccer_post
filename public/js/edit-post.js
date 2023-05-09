@@ -45,7 +45,7 @@ const deleteSoccerPostFormHandler = async (event) => {
 const updateSoccerPostButton = document.querySelector("#update-soccer-post");
 
 if (updateSoccerPostButton) {
-    updateSoccerPostButton.addEventListener("click", updateSoccerPostFormHandler);
+    updateSoccerPostButton.addEventListener("click", updateSoccerFormHandler);
 }
 
 const deleteSoccerPostButton = document.querySelector("#delete-soccer-post");

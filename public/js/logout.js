@@ -11,7 +11,7 @@ const soccerLogout = async () => {
     }
 };
 //event listener to the logout button
-const soccerLogoutButton = document.querySelector('#soccer-logout');
+const soccerLogoutButton = document.querySelector('soccer-logout');
 if (soccerLogoutButton) {
     soccerLogoutButton.addEventListener('click', soccerLogout);
 }

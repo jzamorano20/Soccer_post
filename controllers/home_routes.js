@@ -83,7 +83,7 @@ router.get("/signup", (req, res) => {
 //render the new post page
 router.get("/newpost", (req, res) => {
     if (req.session.logged_in) {
-        res.render("newpost");
+        res.render("new_post");
         return;
     }
     res.redirect("/login");
@@ -104,7 +104,7 @@ router.get("/editpost/:id", async (req, res) => {
 
         const post = postData.get({ plain: true });
 
-        res.render("editpost", {
+        res.render("edit_post", {
             ...post,
             logged_in: req.session.logged_in,
         });

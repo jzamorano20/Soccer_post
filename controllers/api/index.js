@@ -1,8 +1,8 @@
 //Importing modules
 const router = require("express").Router();
-const userRoutes = require("./user-routes");
-const postRoutes = require("./post-routes");
-const commentRoutes = require("./comment-routes");
+const userRoutes = require("./user_routes");
+const postRoutes = require("./post_routes");
+const commentRoutes = require("./comment_routes");
 
 // Set up the routes
 router.use("/users", userRoutes);
