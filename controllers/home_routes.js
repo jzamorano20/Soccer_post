@@ -113,4 +113,16 @@ router.get("/editpost/:id", async (req, res) => {
     }
 });
 
+
+// Route to log out a user
+router.get("/logout", (req, res) => {
+    if (req.session.logged_in) {
+        req.session.destroy(() => {
+            res.render("homepage")
+
+        });
+    } else {
+        res.status(404).end();
+    }
+});
 module.exports = router;
