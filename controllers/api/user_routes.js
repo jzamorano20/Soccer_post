@@ -66,15 +66,6 @@ router.post("/login", async (req, res) => {
         res.status(400).json(err);
     }
 });
-// Route to log out a user
-router.get("/logout", (req, res) => {
-    if (req.session.logged_in) {
-        req.session.destroy(() => {
-            res.status(204).end();
-        });
-    } else {
-        res.status(404).end();
-    }
-});
+
 // Export the router
 module.exports = router;
