@@ -58,16 +58,22 @@ sign up you will be lead to the dashboard where you can create post.
 
 ## Screenshots
 Home screen
-![this is the homescreen](/assets/img/home.png)
+![this is the homescreen](/public/assets/img/home.png)
 
 Sign up 
-![signup page](/assets/img/sign_up.png)
+![signup page](/public/assets/img/sign_up.png)
 
 Dashbaord
-![dashboard page](/assets/img/dash.png)
+![dashboard page](/public/assets/img/dash.png)
 
 Create a Blog Post
-![create a blog post](/assets/img/Create_blog.png)
+![create a blog post](/public/assets/img/Create_blog.png)
 
 Edit a Blog Post
-![edit post](/assets/img/edit.png)
+![edit post](/public/assets/img/edit.png)
+
+
+
+## Link to Demo 
+
+https://drive.google.com/file/d/1tT6VwuQZWKf5Tf3p-0rtFqPcr31HfXMt/view
